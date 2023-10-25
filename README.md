@@ -19,15 +19,18 @@ For deeper understanding check -
 4. Developing a model that successfully generates schedules using greedy algorithm, recursion and back tracking - Scheduling_Model.ipynb
 
 5. Check the results for its viability and correctness by making a checklist, automated script for Quality Check and result
+   
            - QC_Checklist.pdf
            - QC_Quality_Check.py
            - QC_Result.pdf
    
-6. Generate business metrics by developing automated scripts
+7. Generate business metrics by developing automated scripts
+   
            - Business_metrics.py
            - Business_metrics_result.pdf
 
-7. Creating a front-end and deploying it 
+9. Creating a front-end and deploying it
+    
            - Front_End_Code.py
            - Front_End_Snippet.pdf
 
