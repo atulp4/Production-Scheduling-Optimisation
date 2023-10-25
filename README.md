@@ -1,4 +1,4 @@
-# Production-Scheduling-Optimisation
+# Production-Scheduling-Optimisation-and-Automation
 
 The project was an intensive and gruesome undertaking during my first year in the field of Data Science. The project revolved around automating 
 the manual Cleaning In Place scheduling of a manufacturing plant in Reiti, Italy. Closely working with business heads at the plant, helped 
