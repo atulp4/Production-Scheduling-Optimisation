@@ -10,13 +10,21 @@ of the plant generate schedules and monitor KPI's.
 
 For deeper understanding check - 
 
-1. Contextualised problem definition  - Problem Definition_Takeda.pdf
+1. Contextualised problem definition
 
-2. Understanding mapping of pipes from manufacturing machines to cleaning machines - Mapping.pdf
+           - Problem Definition_Takeda.pdf
 
-3. Understanding all metrics involved - Metrics_Dictionary.pdf
+2. Understanding mapping of pipes from manufacturing machines to cleaning machines
 
-4. Developing a model that successfully generates schedules using greedy algorithm, recursion and back tracking - Scheduling_Model.ipynb
+           - Mapping.pdf
+
+3. Understanding all metrics involved
+
+           - Metrics_Dictionary.pdf
+
+4. Developing a model that successfully generates schedules using greedy algorithm, recursion and back tracking
+
+           - Scheduling_Model.ipynb
 
 5. Check the results for its viability and correctness by making a checklist, automated script for Quality Check and result
    
@@ -24,12 +32,12 @@ For deeper understanding check -
            - QC_Quality_Check.py
            - QC_Result.pdf
    
-7. Generate business metrics by developing automated scripts
+6. Generate business metrics by developing automated scripts
    
            - Business_metrics.py
            - Business_metrics_result.pdf
 
-9. Creating a front-end and deploying it
+7. Creating a front-end and deploying it
     
            - Front_End_Code.py
            - Front_End_Snippet.pdf
