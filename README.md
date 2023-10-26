@@ -59,9 +59,7 @@ It has functions to check for:
 - Valid parallel cleaning mappings
 - Count of pre-cleanings vs recleaning
 
-It generates a report dataframe for each check, concantenates them, and exports to an Excel file.
-
-This allows data scientists and engineers to easily validate if the optimized schedule meets all constraints and quality criteria.
+It generates a report dataframe for each check, concantenates them, and exports to an Excel file. This allows data scientists and engineers to easily validate if the optimized schedule meets all constraints and quality criteria.
 
 ## Business Metrics code
 
@@ -78,12 +76,7 @@ It computes metrics like:
 - CIP group usage percentage
 - Inter-arrival cleaning times
 
-These metrics quantify the utilization and performance of the schedule and help identify improvement opportunities.
-
-The metrics are calculated using aggregations on the schedule dataframe and exported to an Excel report.
-
-This provides clear visibility into how well resources are utilized in the optimized schedule.
-
+These metrics quantify the utilization and performance of the schedule and help identify improvement opportunities. The metrics are calculated using aggregations on the schedule dataframe and exported to an Excel report. This provides clear visibility into how well resources are utilized in the optimized schedule.
 
 In summary, these scripts work together to generate an optimized schedule, validate it meets requirements, and calculate metrics to evaluate performance. The Scheduling_Model handles core optimization, the QC code validates quality, and the Business_metrics calculates utilization metrics for the final schedule output.
 
