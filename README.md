@@ -31,15 +31,15 @@ It first reads in the raw utilization data, mapping parameters, and any pre-sche
 
 Some key steps:
 
--It calculates metrics like idle time between usages, last possible cleaning time, etc for each equipment. This is used later for assigning cleaning slots.
--It determines cleaning constraints like maximum Allowable Downtime (DHT) and Allowable Clean Hold Time (CHT) for each equipment from the mapping file.
--It checks for any pre-scheduled frozen cleaning that must be incorporated into the schedule. It assigns these as Post Utilization Cleaning or Pre Cleaning.
--It assigns initial cleaning slots for each equipment utilization trying to satisfy all constraints. It does this sequentially equipment by equipment.
--For high priority equipments, it adjusts the cleaning slot to start earlier if possible to avoid CHT violations.
--It looks for any CHT violations and tries to push the cleaning slots earlier in time to avoid it if possible. This is done sequentially pushing one cleaning at a time.
--It incorporates any required re-cleanings and pre-cleanings to avoid CHT violations.
--It handles scheduled maintenance activities by assigning cleaning slots before/after maintenances if enough idle time is available.
--Finally it outputs the optimized cleaning schedule satisfying all constraints.
+- It calculates metrics like idle time between usages, last possible cleaning time, etc for each equipment. This is used later for assigning cleaning slots.
+- It determines cleaning constraints like maximum Allowable Downtime (DHT) and Allowable Clean Hold Time (CHT) for each equipment from the mapping file.
+- It checks for any pre-scheduled frozen cleaning that must be incorporated into the schedule. It assigns these as Post Utilization Cleaning or Pre Cleaning.
+- It assigns initial cleaning slots for each equipment utilization trying to satisfy all constraints. It does this sequentially equipment by equipment.
+- For high priority equipments, it adjusts the cleaning slot to start earlier if possible to avoid CHT violations.
+- It looks for any CHT violations and tries to push the cleaning slots earlier in time to avoid it if possible. This is done sequentially pushing one cleaning at a time.
+- It incorporates any required re-cleanings and pre-cleanings to avoid CHT violations.
+- It handles scheduled maintenance activities by assigning cleaning slots before/after maintenances if enough idle time is available.
+- Finally it outputs the optimized cleaning schedule satisfying all constraints.
 
 The core optimization occurs by iteratively assigning cleaning schedules into available CIP/constraint slots and pushing schedules earlier until an optimal schedule is reached.
 
